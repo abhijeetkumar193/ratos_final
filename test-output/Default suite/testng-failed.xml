@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="ratos.testngRunner">
+        <methods>
+          <include name="TC_05_create_new_user_management"/>
+          <include name="TC_01_login_and_create_jobs"/>
+          <include name="TC_04_jobs_Delete"/>
+          <include name="getUrl"/>
+          <include name="TC_02_View_jobs_screen"/>
+          <include name="closeDriver"/>
+          <include name="initialiseDriver"/>
+          <include name="TC_03_jobs_Edit"/>
+        </methods>
+      </class> <!-- ratos.testngRunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

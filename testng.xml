@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="ratos.testngRunner">
+      	<methods>
+      		<!-- <include name="TC_01_login_and_create_jobs"/>
+      		<include name="TC_02_View_jobs_screen"/>
+      		<include name="TC_03_jobs_Edit"/>
+      		<include name="TC_04_jobs_Delete"/>
+      		<include name="TC_05_create_new_user_management"/>
+      		<include name="TC_06_user_delete"/>
+      		<include name="TC_07_user_screen_search"/>
+      		<include name="TC_08_edit_user"/>
+      		<include name="TC_09_candidate_resume_uploading"/> -->
+      		<include name="TC_10_Recruiter_search_quick_search"/>
+      	
+      	</methods>
+      
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

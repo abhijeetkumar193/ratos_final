@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Sample Test Suite]">
+  <test name="Method Test Cases(failed)">
+    <classes>
+      <class name="ratos.testngRunner">
+        <methods>
+          <include name="TC_01_login_and_create_jobs"/>
+          <include name="TC_04_jobs_Delete"/>
+          <include name="getUrl"/>
+          <include name="TC_02_View_jobs_screen"/>
+          <include name="closeDriver"/>
+          <include name="initialiseDriver"/>
+          <include name="TC_03_jobs_Edit"/>
+        </methods>
+      </class> <!-- ratos.testngRunner -->
+    </classes>
+  </test> <!-- Method Test Cases(failed) -->
+</suite> <!-- Failed suite [Sample Test Suite] -->
